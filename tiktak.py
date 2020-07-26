@@ -189,7 +189,7 @@ while True:
 		win.fill((205 , 255 , 10))
 		startText1 = endFont.render('use the W and S keys to move player1', 1 , (0,0,0))
 		win.blit(startText1 , (10, 100))
-		startText1 = endFont.render('use the UP and DOWN keys to move player1', 1 , (0,0,0))
+		startText1 = endFont.render('use the UP and DOWN keys to move player2', 1 , (0,0,0))
 		win.blit(startText1 , (10, 300))
 		startText1 = endFont.render('press SPACE to start the game', 1 , (0,0,0))
 		win.blit(startText1 , (10, 500))
